@@ -19,4 +19,14 @@ console.log(`Hola, soy ${nombreCompleto} y tengo ${edad} años `);
 //console.log(numero + numeroTexto);
 
 //Actividad
+//Repaso 20250325T0912
+//Operadores aritméticos +, - , * , / , %  , **
+
+//Comparación 
+//== , ===, != , !== , <, > , <=, >= ;
+//Operadores lógicos 
+//&& , || , |
+//Estructuras de Control
+//if, else if , else , for , while
+
 
