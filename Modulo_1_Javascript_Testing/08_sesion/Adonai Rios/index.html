@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad clase08 Liderly Api Cartoon</title>
+    <link rel="stylesheet" href="stilos.css">
+</head>
+<body>
+    <h1>Lista de Personajes</h1>
+    <div id="character-container"></div>        
+    <script>
+        async function obtenerPokemones(){
+            const container = document.getElementById("character-container");
+            for(let i=1; i<=30; i++)
+            {
+                
+                try{
+                const respuesta = await fetch(`https://rickandmortyapi.com/api/character/${i}`);
+                //const respuesta = await fetch(`https://pokeapi.co/api/v2/pokemon/${i}`);
+                console.log(respuesta);
+                const data = await respuesta.json();
+                console.log(data);
+                
+                const card = document.createElement("div")
+                card.className = "card";                
+                
+                
+                card.innerHTML = `                
+                <img src =" ${data.image}" alt="${data.name}">   
+                <h2>${data.name}</h2>
+                <strong> Estatus: ${data.status}                                
+                <strong>Género: ${data.gender}                `;
+                
+                //card.innerHTML = `<img src =" ${data.sprites.front_default}" alt="${data.name}">   <h2>${data.name}</h2>`;
+                   
+                container.appendChild(card);
+            }catch(error){
+                console.log("Error al obtener el personaje", error);
+            }
+
+
+            }
+
+        }
+        obtenerPokemones();
+    </script>
+</body>
+</html>
