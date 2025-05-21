@@ -1,4 +1,5 @@
 using PrimeraAPI.Data;
+using TiendaMVC.Services;
 
 
 var builder = WebApplication.CreateBuilder(args);

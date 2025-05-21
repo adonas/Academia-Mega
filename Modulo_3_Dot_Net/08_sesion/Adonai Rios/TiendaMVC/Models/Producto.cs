@@ -1,5 +1,5 @@
 
-namespace PrimeraAPI.Models
+namespace TiendaMVC.Models
 {
 
     public class Producto
@@ -11,4 +11,3 @@ namespace PrimeraAPI.Models
     }
 
 }
-
