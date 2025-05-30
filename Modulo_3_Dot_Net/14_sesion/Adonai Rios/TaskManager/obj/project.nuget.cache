@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PEHLdneMk+I=",
+  "success": true,
+  "projectFilePath": "C:\\Megacable\\Academia-Mega\\Modulo_3_Dot_Net\\14_sesion\\Adonai Rios\\TaskManager\\TaskManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arios\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.4\\microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+    "C:\\Users\\arios\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
