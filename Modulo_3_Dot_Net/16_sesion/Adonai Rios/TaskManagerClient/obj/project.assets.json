@@ -1762,11 +1762,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Megacable\\Academia-Mega\\Modulo_3_Dot_Net\\15_sesion\\Adonai Rios\\TaskManagerClient\\TaskManagerClient.csproj",
+      "projectUniqueName": "C:\\Megacable\\Academia-Mega\\Modulo_3_Dot_Net\\16_sesion\\Adonai Rios\\TaskManagerClient\\TaskManagerClient.csproj",
       "projectName": "TaskManagerClient",
-      "projectPath": "C:\\Megacable\\Academia-Mega\\Modulo_3_Dot_Net\\15_sesion\\Adonai Rios\\TaskManagerClient\\TaskManagerClient.csproj",
+      "projectPath": "C:\\Megacable\\Academia-Mega\\Modulo_3_Dot_Net\\16_sesion\\Adonai Rios\\TaskManagerClient\\TaskManagerClient.csproj",
       "packagesPath": "C:\\Users\\arios\\.nuget\\packages\\",
-      "outputPath": "C:\\Megacable\\Academia-Mega\\Modulo_3_Dot_Net\\15_sesion\\Adonai Rios\\TaskManagerClient\\obj\\",
+      "outputPath": "C:\\Megacable\\Academia-Mega\\Modulo_3_Dot_Net\\16_sesion\\Adonai Rios\\TaskManagerClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arios\\AppData\\Roaming\\NuGet\\NuGet.Config"
