@@ -1,5 +1,10 @@
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddScoped<INotificacionService, EmailNotificacionService>();
+builder.Services.AddScoped<INotificacionService, SmsNotificacionService>();
+builder.Services.AddScoped<ITaskRepository , InMemoryTaskRepository>();
+
+
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
