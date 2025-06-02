@@ -10,7 +10,7 @@ namespace TaskManager.Services
         protected NotificationService(string senderName) =>
             SenderName = senderName;
 
-        public abstract NotifyTaskCreatedAsync(TaskItem task);
+        public abstract Task NotifyTaskCreatedAsync(TaskItem task);
         
     }
 }

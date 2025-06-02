@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Megacable\\Academia-Mega\\Modulo_3_Dot_Net\\14_sesion\\Adonai Rios\\TaskManager\\TaskManager.csproj": {}
+    "C:\\Megacable\\Academia-Mega\\Modulo_3_Dot_Net\\15_sesion\\Adonai Rios\\TaskManager\\TaskManager.csproj": {}
   },
   "projects": {
-    "C:\\Megacable\\Academia-Mega\\Modulo_3_Dot_Net\\14_sesion\\Adonai Rios\\TaskManager\\TaskManager.csproj": {
+    "C:\\Megacable\\Academia-Mega\\Modulo_3_Dot_Net\\15_sesion\\Adonai Rios\\TaskManager\\TaskManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Megacable\\Academia-Mega\\Modulo_3_Dot_Net\\14_sesion\\Adonai Rios\\TaskManager\\TaskManager.csproj",
+        "projectUniqueName": "C:\\Megacable\\Academia-Mega\\Modulo_3_Dot_Net\\15_sesion\\Adonai Rios\\TaskManager\\TaskManager.csproj",
         "projectName": "TaskManager",
-        "projectPath": "C:\\Megacable\\Academia-Mega\\Modulo_3_Dot_Net\\14_sesion\\Adonai Rios\\TaskManager\\TaskManager.csproj",
+        "projectPath": "C:\\Megacable\\Academia-Mega\\Modulo_3_Dot_Net\\15_sesion\\Adonai Rios\\TaskManager\\TaskManager.csproj",
         "packagesPath": "C:\\Users\\arios\\.nuget\\packages\\",
-        "outputPath": "C:\\Megacable\\Academia-Mega\\Modulo_3_Dot_Net\\14_sesion\\Adonai Rios\\TaskManager\\obj\\",
+        "outputPath": "C:\\Megacable\\Academia-Mega\\Modulo_3_Dot_Net\\15_sesion\\Adonai Rios\\TaskManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arios\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -47,6 +47,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.2, )"
             }
           },
           "imports": [
