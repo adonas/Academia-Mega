@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 builder.Services.AddControllers();
 
 builder.Services.AddScoped<INotificationService, EmailNotificationService>();
@@ -14,12 +15,12 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-}
+app.MapControllers();
+app.UseSwagger();
+app.UseSwaggerUI();
+
 
 app.UseHttpsRedirection();
 
-
+app.UseHttpsRedirection();
 app.Run();
