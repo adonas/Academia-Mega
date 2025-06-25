@@ -20,3 +20,4 @@ EXPOSE 3001
 #Comando que inicie la aplicación
 CMD ["node" , "app.js"]
 
+#Adonai Rios Rodríguez Liderly - Academia Mega Kubernet
