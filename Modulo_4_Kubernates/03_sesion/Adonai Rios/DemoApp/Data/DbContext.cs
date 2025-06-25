@@ -4,6 +4,6 @@ namespace DemoApp.Data;
 
 public class MiStarbucksDbConext : DbContext
 { 
-    
+    //Ejemplo para git
 }
 
